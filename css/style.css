@@ -168,7 +168,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background-image: url("/img/back.jpeg");
+    background-image: url("img/back.jpeg");
     background-position: center;
     height: 100vh;
     color: #4a4747;
