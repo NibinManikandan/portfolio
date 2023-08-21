@@ -134,7 +134,7 @@ $("#submit-form").submit((e) => {
    
       e.preventDefault();
       $.ajax({
-         url: "https://script.google.com/macros/s/AKfycbzbtIJkLhGe_7dyxpNxvPo8AbvVAnb3U59gI3OnNOwcGhELizrO8Xb3d3oqqf903JLwhg/exec",
+         url: "https://script.google.com/macros/s/AKfycbwaqhuFVTbMUxy3KxkU72uhsT-bKkCrktkoy7gGNg7RcACTlMsGWbWiW75W78bLCQRVsg/exec",
          data: $("#submit-form").serialize(),
          method: "post",
          success: function (response) {
